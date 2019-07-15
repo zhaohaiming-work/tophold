@@ -1,39 +1,12 @@
 const str = `
-# This is a header\n\nAnd this is a paragraph
-# 这是 H1
+# 正则的扩展
 
-## 这是 H2
+#### RegExp 构造函数
 
-###### 这是 H6
+在 ES5 中，\`RegExp\`构造函数的参数有两种情况。
 
-# webpack4.0-react-start-kit
+第一种情况是，参数是字符串，这时第二个参数表示正则表达式的修饰符（flag）。
 
-* 需要环境
-> ## 这是一个标题。
-> 
-> 1.   这是第一行列表项。
-> 2.   这是第二行列表项。
-> 
-> 给出一些例子代码：
-> 
->     return shell_exec("echo $input | $markdown_script");
-* 项目配置
-
-  webpack4.0
-  *   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-  Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-  viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-  Suspendisse id sem consectetuer libero luctus adipiscing.
-  1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
 `
 
 export default str
