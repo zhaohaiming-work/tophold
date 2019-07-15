@@ -1,5 +1,6 @@
-// import example from './example'
+import example from './example'
 import xswap from './xswap'
 export default {
-  xswap
+  xswap,
+  example
 }
