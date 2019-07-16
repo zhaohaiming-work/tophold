@@ -1,3 +1,5 @@
+@import 'mixin';
+@import 'style1';
 .xswap {
   width: 100%;
 
@@ -7,9 +9,176 @@
   width: 100%;
   height: 700px;
 }
-.markdown-container{
+
+.markdown-container {
   padding: 50px;
 }
-.markdown-container *{
-  line-height: 1.4;
+
+.markdown-container * {
+  line-height: 2;
+}
+
+.markdown-container p {
+  line-height: 2;
+}
+
+.xswap-banner-logo {
+  display: flex;
+  padding: 20px 100px;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 5px;
+
+  .logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+  img{
+    cursor: pointer;
+  }
+}
+
+.xswap-banner-center {
+  width: 100%;
+  padding: 0 100px;
+  text-align: center;
+  color: #fff;
+  @include flex-between();
+
+  .blank {
+    width: 150px;
+  }
+
+  .trade {
+    width: 460px;
+    padding: 30px 0;
+    position: relative;
+
+    h2 {
+      font-size: 45px;
+      color: #fff;
+    }
+
+    span {
+      font-size: 18px;
+      padding: 15px 0;
+      display: block;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .trade::before {
+    content: '┌';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-weight: bolder;
+  }
+
+  .trade::after {
+    content: '┘';
+    display: block;
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    font-weight: bolder;
+  }
+
+  img {
+    display: block;
+    @include size(115px, 115px);
+  }
+
+  .register {
+    position: relative;
+    @include size(350px, 410px);
+    padding: 0 30px;
+    .mask{
+      @include absolute-center();
+      background: #000;
+      opacity: 0.7;
+      z-index: 0;
+    }
+  }
+
+  .register>h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 450;
+    padding: 25px 0 10px 0;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+
+  button {
+    display: block;
+    border: none;
+    background: #22d2d3;
+    @include size(100%, 47px);
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin-top: 35px;
+    position: relative;
+    z-index: 1;
+  }
+  button:active{
+    opacity: 0.8;
+  }
+  .register-list {
+    border-bottom: 1px #93939a solid;
+    padding: 20px 0 10px 0;
+    color: #93939a;
+    font-size: 12px;
+    @include flex-between();
+    position: relative;
+    z-index: 1;
+    span {
+      color: #22d2d3;
+      cursor: pointer;
+      font-size: 13px;
+    }
+  }
+
+  input {
+    margin: 0 5px;
+    flex: 1;
+    height: 22px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #93939a;
+  }
+}
+
+.xswap-banner-business {
+  width: 100%;
+  @include flex-around();
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  li {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+
+    img {
+      height: 45px;
+      width: auto;
+    }
+
+    p {
+      padding-top: 10px;
+    }
+  }
 }

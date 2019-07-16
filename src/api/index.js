@@ -4,7 +4,7 @@ import example from './example'
 
 // 实例化 ajax请求对象
 const ajaxinstance = axios.create({
-  baseURL: 'http://172.28.138.54:1442',
+  baseURL: 'https://api-web.xswap.io',
   timeout: 60000,
   headers: {
     'Content-Type': 'application/json; charset=utf-8'

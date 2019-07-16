@@ -19,7 +19,9 @@ body *::after {
   box-sizing: inherit;
   -webkit-overflow-scrolling: touch;
 }
-
+li{
+  list-style: none;
+}
 //类的循环为5的倍数
 //margin
 @for $i from 1 through 5 {

@@ -3,20 +3,12 @@ import React from 'react'
 // import PropTypes from 'prop-types'
 // import { Button, Tag } from 'antd'
 import '../style'
-import Banner from './banner'
-class App extends React.Component {
-  componentDidMount () {
-    // console.log(this.props)
-  }
-  add = () => {
+import faqch from '../data/faq-ch'
+import ReactMarkdown from 'react-markdown'
 
-  }
-  render () {
-    return (
-      <div className='xswap'>
-        fdsafadsfdsafsd
-      </div>
-    )
-  }
-}
-export default App
+export default () => (
+  <div className='markdown-container'>
+    <div>常见问题</div>
+    <ReactMarkdown source={faqch} />
+  </div>
+)
