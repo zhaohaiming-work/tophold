@@ -4,17 +4,19 @@ import React from 'react'
 // import { Button, Tag } from 'antd'
 import '../style'
 import Banner from './banner'
+import Customer from './customer'
+import Have from './have'
+import Brief from './brief'
+import Footer from './footer'
 class App extends React.Component {
-  componentDidMount () {
-    // console.log(this.props)
-  }
-  add = () => {
-
-  }
   render () {
     return (
       <div className='xswap'>
         <Banner />
+        <Customer />
+        <Have />
+        <Brief />
+        <Footer />
       </div>
     )
   }
