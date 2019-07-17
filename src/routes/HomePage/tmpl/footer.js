@@ -50,14 +50,20 @@ class App extends React.Component {
         </div>
         <div className='right'>
           <div>
-            <a href=''>{type === 'ch' ? '隐私政策' : 'PRIVACY POLICY'}</a>
-            <a href=''>{type === 'ch' ? '用户协议' : 'USER AGREEMENT'}</a>
+            <a href={`#/index/plivacy-policy/${type}`}>{type === 'ch' ? '隐私政策' : 'PRIVACY POLICY'}</a>
+            <a href={`#/index/agreement/${type}`}>{type === 'ch' ? '用户协议' : 'USER AGREEMENT'}</a>
           </div>
-          <h3>投资有风险,入市需谨慎</h3>
+          <h3>{type === 'ch' ? '投资有风险,入市需谨慎' : 'Investment is risky and market entry should be prudent'}</h3>
           <ul>
-            <li>交易产品属于高风险、高收益投资品种；</li>
-            <li>投资者应具有较高的风险识别能力、资金实力与风险承受能力。</li>
-            <li>投资者应合理配置资产、不应用全部资金做投资，不应借钱来做投资</li>
+            <li>{type === 'ch' ? '交易产品属于高风险、高收益投资品种'
+              : 'Transacted products belong to high-risk and high-yield investment varieties.'}</li>
+            <li>{type === 'ch' ? '投资者应具有较高的风险识别能力、资金实力与风险承受能力'
+              : 'Investors should have high risk identification ability, capital strength and risk tolerance ability.'}
+            </li>
+            <li>{type === 'ch' ? '投资者应合理配置资产、不应用全部资金做投资，不应借钱来做投资'
+              : `Investors should allocate assets rationally, 
+              not invest with all their funds, and not borrow money to invest.`}
+            </li>
           </ul>
         </div>
       </div>

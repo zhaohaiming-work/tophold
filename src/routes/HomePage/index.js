@@ -11,14 +11,14 @@ export default mergeRoute(
       tmpl: Home
     },
     {
-      path: '/index/agreement',
+      path: '/index/agreement/:type',
       tmpl: Agreement
     },
     {
-      path: '/index/plivacy-policy',
+      path: '/index/plivacy-policy/:type',
       tmpl: PlivacyPolicy
     }, {
-      path: '/index/faq',
+      path: '/index/faq/:type',
       tmpl: Faq
     },
   ]

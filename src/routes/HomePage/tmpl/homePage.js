@@ -8,6 +8,7 @@ import Customer from './customer'
 import Have from './have'
 import Brief from './brief'
 import Footer from './footer'
+import Problem from './problem'
 class App extends React.Component {
   render () {
     return (
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Customer />
         <Have />
         <Brief />
+        <Problem />
         <Footer />
       </div>
     )

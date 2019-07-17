@@ -1,5 +1,7 @@
 import axios from 'axios'
 import example from './example'
+import xswap from './xswap'
+import { message } from 'antd'
 // 接口模块
 
 // 实例化 ajax请求对象
@@ -26,8 +28,11 @@ ajaxinstance
   .interceptors
   .response
   .use((response) => {
+    // console.log(response)
     return response.data
   }, (error) => {
+    // console.log(JSON.stringify(error))
+    // message.info(error.config)
     return Promise.reject(error)
   })
 
@@ -36,7 +41,8 @@ ajaxinstance
  * @type {Object}
  */
 const API = {
-  ...example
+  ...example,
+  ...xswap
 }
 export const ajax = ajaxinstance
 export default API
