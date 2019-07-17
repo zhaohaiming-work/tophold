@@ -15,6 +15,27 @@
 ```bash
 
   如果安装了yarn
-  启动： 1. yarn install
+
+  1. yarn install ----  安装node包 
+
+  2. yarn start   ----  启动项目
+
+  如果安装了npm
+  1. npm install ----  安装node包 
+
+  2. npm start   ----  启动项目
+
+ ```
+ * 项目打包：
+ 
+ ```bash
+
+  如果安装了yarn
+
+   yarn build  
+
+  如果安装了npm
   
+  npm build
+
  ```
