@@ -9,6 +9,7 @@ import Have from './have'
 import Brief from './brief'
 import Footer from './footer'
 import Problem from './problem'
+import Partners from './partners'
 class App extends React.Component {
   render () {
     return (
@@ -18,6 +19,7 @@ class App extends React.Component {
         <Have />
         <Brief />
         <Problem />
+        <Partners />
         <Footer />
       </div>
     )

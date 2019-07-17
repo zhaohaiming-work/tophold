@@ -234,3 +234,13 @@
     background: #efefef;
   }
 }
+.partners-list{
+  display: flex;
+  flex-wrap: wrap;
+
+  li{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
