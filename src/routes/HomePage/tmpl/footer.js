@@ -3,11 +3,18 @@ import { observer, inject } from 'mobx-react'
 import PropTypes from 'prop-types'
 // import { Tooltip } from 'antd'
 import '../style'
+import { history } from 'func'
 @inject('xswap')
 @observer
 class App extends React.Component {
   static propTypes = {
     xswap: PropTypes.object
+  }
+  skip=(e) => {
+    const { xswap } = this.props
+    const { type } = xswap
+    const { title } = e.target.dataset
+    history.push(`/index/${title}/${type}`)
   }
   render () {
     const { xswap } = this.props
@@ -50,8 +57,10 @@ class App extends React.Component {
         </div>
         <div className='right'>
           <div>
-            <a href={`#/index/plivacy-policy/${type}`}>{type === 'ch' ? '隐私政策' : 'PRIVACY POLICY'}</a>
-            <a href={`#/index/agreement/${type}`}>{type === 'ch' ? '用户协议' : 'USER AGREEMENT'}</a>
+            <a href='javascript:;' data-title='plivacy-policy'
+              onClick={this.skip}>{type === 'ch' ? '隐私政策' : 'PRIVACY POLICY'}</a>
+            <a href='javascript:;' data-title='agreement'
+              onClick={this.skip}>{type === 'ch' ? '用户协议' : 'USER AGREEMENT'}</a>
           </div>
           <h3>{type === 'ch' ? '投资有风险,入市需谨慎' : 'Investment is risky and market entry should be prudent'}</h3>
           <ul>

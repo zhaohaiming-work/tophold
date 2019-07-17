@@ -10,3 +10,11 @@
 
   webpack4.0
 
+* 项目启动步骤：
+
+```bash
+
+  如果安装了yarn
+  启动： 1. yarn install
+  
+ ```

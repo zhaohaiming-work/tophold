@@ -52,6 +52,10 @@ class App extends React.Component {
   static propTypes = {
     xswap: PropTypes.object
   }
+  skip = e => {
+    const { url } = e.target.dataset
+    window.open(url)
+  }
   render () {
     const { xswap } = this.props
     const { type } = xswap
@@ -64,7 +68,7 @@ class App extends React.Component {
             imgArr.map((v, i) => {
               return (
                 <li key={i}>
-                  <a href={v.href} target='_blank'><img src={v.url} alt='' /></a>
+                  <img data-url={v.href} onClick={this.skip} src={v.url} alt='' />
                 </li>
               )
             })
