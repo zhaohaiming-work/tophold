@@ -1,18 +1,18 @@
 const str = `
-PRIVACY POLICY
-Announcement Date: [    ]2019  
- Effective Date: [    ]2019
+### PRIVACY POLICY
+Announcement Date: [    ]2019     
+Effective Date: [    ]2019    
 
-Table of contents: 
-I.	GOVERNING LAW AND SCOPE OF APPLICATION OF THIS PRIVACY POLICY
-II.	HOW DO WE COLLECT AND USE YOUR PERSONAL INFORMATION
-III.	HOW DO WE STORE YOUR PERSONAL INFORMATION
-IV.	HOW DO WE SHARE AND TRANSFER YOUR PERSONAL INFORMATION
-V.	HOW DO WE PROTECT YOUR PERSONAL INFORMATION
-VI.	YOUR RIGHT TO MANAGE YOUR PERSONAL INFORMATION
-VII.	STATEMENT ON THIRD PARTY LIABILITY
-VIII.	UPDATE OF THIS PRIVACY POLICY AND HOW TO CONTACT US
-
+Table of contents:    
+I.	GOVERNING LAW AND SCOPE OF APPLICATION OF THIS PRIVACY POLICY    
+II.	HOW DO WE COLLECT AND USE YOUR PERSONAL INFORMATION    
+III.	HOW DO WE STORE YOUR PERSONAL INFORMATION    
+IV.	HOW DO WE SHARE AND TRANSFER YOUR PERSONAL INFORMATION    
+V.	HOW DO WE PROTECT YOUR PERSONAL INFORMATION    
+VI.	YOUR RIGHT TO MANAGE YOUR PERSONAL INFORMATION    
+VII.	STATEMENT ON THIRD PARTY LIABILITY    
+VIII.	UPDATE OF THIS PRIVACY POLICY AND HOW TO CONTACT US    
+*****
 Xswap ("We") pays attention to protecting Users' personal information and personal privacy. This Privacy Policy contains the terms and conditions regarding our collecting, processing, storing, using, sharing, transferring, publicly disclosing and protecting Users'("you") personal information (hereinafter, Information). We will collect, use and share your personal information in accordance with this Privacy Policy ("this Policy"). At the same time, We will explain to you through this Policy, and We will negotiate with you to determine the way We provide you with services to access, update, control and protect your information.
 Please read and understand this Privacy Policy before using our services to help you understand how to protect your privacy. If you have any questions about this Privacy Policy, you can contact us through the contact information We post. If you do not agree to any term of this Privacy Policy, please stop using our services immediately. By using any of the services We provide, you agree that We may collect, process, store, use, share, transfer, publicly disclose and protect your personal information in accordance with this Privacy Policy.
 To ensure that you use our services properly, We carry out real-name management, fulfill anti-money laundering duties, and take risk prevention measures in accordance with relevant applicable regulations. Collecting, storing, using, and sharing your information, is following with national laws and regulations, and for the purpose of providing services to you and improving the quality of service, avoiding the adverse impact on you due to inability to contact you in a timely manner. And meet the need of protecting the security of your account. 

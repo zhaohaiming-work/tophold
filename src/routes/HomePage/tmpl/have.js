@@ -20,6 +20,7 @@ class App extends React.Component {
         <h1>{type === 'ch' ? '在xswap你将拥有' : 'In xswap you will have'}</h1>
         <div className='have'>
           <div className='left'>
+            <div className='ground-top' />
             <ul>
               <li>
                 {type === 'ch' ? 'A、区块链技术保障用户与用户点对点交易，最优价格成交，让交易费用更低。'
@@ -34,6 +35,7 @@ class App extends React.Component {
                   : 'C、PAX, the worlds first regulated cryptocurrency,for settlement,  Validation of asset holding '}
               </li>
             </ul>
+            <div className='ground-bottom' />
           </div>
           <div className='invest'>
             <img src={tz} alt='' />
