@@ -20,6 +20,11 @@ class App extends React.Component {
     const { xswap } = this.props
     const { type } = xswap
     // console.log(type)
+    const now = new Date()
+    const year = now.getFullYear()
+    const month = now.getMonth() + 1
+    const date = now.getDate()
+
     return (
       <div className='fragment-container'>
         <h1>{type === 'ch' ? '常见问题' : 'FAQ'}</h1>
@@ -28,7 +33,10 @@ class App extends React.Component {
             data.map(v => {
               return (
                 <li key={v.index}>
-                  <div className='left' />
+                  <div className='left'>
+                    <span>{+date < 10 ? `0${date}` : date}</span>
+                    <p>{`${year}/${+month > 10 ? month : `0${month}`}`}</p>
+                  </div>
                   <div className='right'>
                     <span>{type === 'ch' ? v.chName : v.enName}</span>
                     <p>{type === 'ch' ? v.chConent : v.enConent}</p>
@@ -40,7 +48,9 @@ class App extends React.Component {
         </ul>
         <div className='text-center'>
           <Icon type='caret-down' onClick={this.skip}
-            style={{ fontSize: 20, cursor: 'pointer', color: '#6E6A6A' }} />
+            style={{ fontSize: 20, cursor: 'pointer', color: '#6E6A6A' }}
+            title='更多'
+          />
         </div>
       </div>
     )
