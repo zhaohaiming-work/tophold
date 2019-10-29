@@ -40,9 +40,9 @@ class App extends React.Component {
           </li>
           <li>
             <img src={szqb} alt='' />
-            <span>{type === 'ch' ? '数字钱包' : 'Digital currencies wallet'}</span>
-            <p>{type === 'ch' ? '秒速出入金，结算稳定、安全、公开、透明'
-              : 'Second-rate deposit and withdrawal,stablecoins for cash management'}</p>
+            <span>{type === 'ch' ? '极速出入金' : 'Fast deposit and withdrawal'}</span>
+            <p>{type === 'ch' ? '多种入金方式，极速出金，资金安全'
+              : 'Various deposit methods, quicker withdrawals, and safer funds'}</p>
           </li>
         </ul>
       </div>

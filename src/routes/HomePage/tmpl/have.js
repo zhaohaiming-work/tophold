@@ -27,12 +27,12 @@ class App extends React.Component {
                   : 'A、Advanced blockchain technology，Visualize trade patterns，Lowest Cost'}
               </li>
               <li>
-                {type === 'ch' ? 'B、货币对、商品期货、股票指数等保证金掉期虚拟合约制交易。'
+                {type === 'ch' ? 'B、货币对、商品期货、股票指数等保证金掉期合约制交易。'
                   : 'B、FX,Stocks,Indices,Commodities virtual margin swaps contract transactions'}
               </li>
               <li>
-                {type === 'ch' ? 'C、使用世界上第一个受监管的加密货币pax结算，稳定币交易保障资金安全和交易透明。'
-                  : 'C、PAX, the worlds first regulated cryptocurrency,for settlement,  Validation of asset holding '}
+                {type === 'ch' ? 'C、CXM旗下交易软件，FCA全牌照监管。'
+                  : 'C、regulated by the Financial Conduct Authority of the UK (FCA) xswap in partnership with CXM'}
               </li>
             </ul>
             <div className='ground-bottom' />

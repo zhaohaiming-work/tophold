@@ -11,7 +11,7 @@ class App extends React.Component {
   }
   componentDidMount () {
     console.log(this.props)
-    this.props.example.getDate()
+    // this.props.example.getDate()
   }
   add = () => {
 

@@ -50,7 +50,7 @@ class App extends React.Component {
           <div className='blank' />
           <div className='trade'>
             {type === 'ch' ? <h2>交易无边界</h2> : <div className='font-25'>Freely Trade Everything</div>}
-
+            {type === 'ch' ? <h2>FCA全牌照监管</h2> : <div className='font-25'>regulated by the FCA of the UK</div>}
             <span>
               {type === 'ch' ? '最先进的货币对保证金永续掉期交易平台' : 'Collateralized Perpetual Swaps'}</span>
             <p>
@@ -74,8 +74,8 @@ class App extends React.Component {
           </li>
           <li>
             <img src={js} alt='' />
-            <p>{type === 'ch' ? '世界第一家受监管的加密货币PAX结算'
-              : 'PAX settlement (the first regulated cryptocurrency)'}</p>
+            <p>{type === 'ch' ? 'CXM希盟旗下交易软件'
+              : 'xswap in partnership with CXM'}</p>
           </li>
         </ul>
       </div>

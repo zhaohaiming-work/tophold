@@ -24,29 +24,31 @@ class App extends React.Component {
             <h2>{type === 'ch' ? 'xswap交易平台简介' : 'About xswap'}</h2>
             <p>
               {
-                type === 'ch' ? `xswap是一家专注于swap合约交易的虚拟交易平台，
-                所有产品产生的增值和减值都以稳定币1:1锚定美元计算，
-                xswap 不接受法定货币（政府发行的货币），
-                并由Pristine Limited全资控股。Pristine Limited
-                是一家依据2016年塞舌尔共和国《国际商业公司法》组织成立的公司，
-                公司编号212516。Pristine Limited建立于塞舌尔共和国，
-                依托于金融科技公司CMX强大的撮合引擎技术以及全球领先区块链技术公司R3的分布式账本技术，
-                xswap平台成为了第一个纯粹依靠用户点对点交易的虚拟交易平台，
-                我们不是外汇券商，更不是数字货币商，我们只是竭尽所能提供一个尽可能公开透明的平台。`
-                  : `The xswap is a virtual trading platform focused on swap contract transactions.
-                 All products generate value added and depreciation calculated in stable currency
-                  1:1 anchored dollars, xswap does not accept fiat currency (government issued currency),
-                 and is fully owned by Pristine Limited. Capital holding.
-                Pristine Limited is a company incorporated under the International
-                 Business Companies Act of the Republic of Seychelles in 2016,
-                  company number 212516. Founded in the Republic of Seychelles, 
-                  Pristine Limited is the first virtual transaction to rely solely
-                   on user peer-to-peer trading, relying on CMX's powerful trading 
-                   and matching engine technology and distributed ledger technology 
-                   from R3, the world's leading blockchain technology company.
-                    We are not a forex broker, neither a digital currency dealer,
-                     we just do everything we can to provide a platform that is as 
-                     open and transparent as possible.`
+                type === 'ch' ? `xswap是CXM（希盟）集团旗下一家技术供应商，将CXM集团丰富的交易品种带给更多中小个人用户。
+                CXM集团包括CXM Trading (SV) 和CXM Prime(UK)公司。
+                CXM Trading (SV)地址位于文森特和格林纳丁斯金斯敦Suite 305, Griffith Corporate Center, Beachmont Kingstown, Saint Vincent and the Grenadines金融中心（公司代码：24912）；
+                CXM Prime (UK)是Alchemy Prime Limited的注册商标，Alchemy Prime Limited是一家位于英格兰和威尔士由FCA监管的公司，
+                监管号612233。该办公室位于13 Leyden Street, London E1 7LE。
+                CXM精英云集，团队成员来自美国、亚太、东欧等地区的全球前十券商，拥有精湛的技术与过硬的口碑，提供所有主流交易品种。
+                CXM采用真正的STP/ECN技术，和一级银行和主标保持深度合作关系，为客户提供充沛的市场流动性，可满足对交易环境要求最高的客户群体需求。
+                了解更多关于CXM，请访问：https://www.cxmtrading.com
+                `
+                  : `Xswap is a technology provider of the CXM Group,
+                   bringing the rich products of CXM Group to more small and medium-sized individuals. 
+                   The CXM Group companies include CXM Trading (SV) and CXM Prime (UK).
+                    CXM Trading (SV) has it's business address at Suite 305,
+                     Griffith Corporate Center,
+                      Beachmont Kingstown, Saint Vincent and the Grenadines with the The Financial Services Centre at Stoney Ground,
+                       Kingstown，St. Vincent & the Grenadines （company number 24912 IBC） ; 
+                       CXM Prime is a trading name of Alchemy Prime Limited (a company registered in England and Wales authorized and regulated by the Financial Conduct Authority of the UK (FCA) under firm reference no 612233).
+                        The UK offices is located at 13 Leyden Street, London E1 7LE United Kingdom. 
+                        CXM gathers elites, the team members from the United States, Asia Pacific, Eastern Europe and other regions of the world's top 10 brokers,
+                         with superb technology and excellent reputation, providing all major trading varieties. 
+                         CXM's STP/ECN technology and great relationships with tier one banks and prime brokers enabled them to provide deep custom liquidity,
+                          capable of handling the needs of even most sophisticated clients.
+                           CXM Trading has earned a solid reputation as a reliable institutional broker.
+                  To learn more about CXM, please visit: https://www.cxmtrading.com
+                  `
               }
             </p>
           </div>

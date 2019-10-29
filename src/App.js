@@ -10,6 +10,7 @@ import PageLayout from 'layout'
 import Base from './routes'
 import zhCN from 'antd/es/locale-provider/zh_CN'
 const Login = lazy(() => import('./routes/Login/index'))
+
 class App extends React.Component {
   render () {
     return (

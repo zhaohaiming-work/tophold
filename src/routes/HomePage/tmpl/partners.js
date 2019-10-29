@@ -3,7 +3,7 @@ import { observer, inject } from 'mobx-react'
 import PropTypes from 'prop-types'
 // import { Tooltip } from 'antd'
 import '../style'
-import bo from 'img/bo'
+import bo from 'img/cxm'
 import capxm from 'img/capxm'
 import charter from 'img/charter'
 import cmx from 'img/cmx'
@@ -15,7 +15,7 @@ import r3 from 'img/r3'
 import shift from 'img/shift'
 const imgArr = [
   {
-    href: 'https://cobo.com/',
+    href: 'https://www.cxmtrading.com',
     url: bo
   }, {
     href: 'https://www.capxm.com',
