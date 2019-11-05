@@ -84,7 +84,7 @@ class App extends React.Component {
     }
     const obj = {
       k: phone,
-      phone_country_code: 'cn',
+      // phone_country_code: 'cn',
     }
     api.captchaUrl(obj)
       .then(res => {
@@ -104,7 +104,7 @@ class App extends React.Component {
       // console.log(code)
       const obj = {
         phone,
-        phone_country_code:'cn',
+        // phone_country_code:'cn',
         captcha_code:code
       }
       if (code) {
