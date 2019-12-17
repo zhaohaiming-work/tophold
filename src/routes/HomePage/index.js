@@ -7,7 +7,7 @@ const PlivacyPolicy = React.lazy(() => import('./tmpl/plivacyPolicy'))
 export default mergeRoute(
   [
     {
-      path: '/index',
+      path: '/',
       tmpl: Home
     },
     {
